@@ -13,7 +13,7 @@ const Brands = () => {
 
   return (
     <div className="brand-top">
-      <div className="brand-head">Companies Work With Us</div>
+      <div className="brand-head"> We Collaborate With</div>
       <div className="brand">
         {data.map((item, index) => {
           return (

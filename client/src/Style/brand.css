@@ -38,3 +38,56 @@
   font-size: 3rem;
   color: #023047;
 }
+.genre-top {
+  background-color: #f8fbfc; /* some light background */
+  padding-block: 2rem;
+}
+
+.genre {
+  margin-inline: 4rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.genre-head {
+  width: max-content;
+  font-size: 1.9rem;
+  color: #023047;
+  margin-inline-start: 4rem;
+}
+
+.genre-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-inline: 4rem;
+}
+
+.genre-img {
+  width: max-content;
+  height: max-content;
+  /* filter: grayscale(100%); */
+  color: #023047;
+  margin: 1rem;
+}
+.genre-img i {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50% 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 2.5rem;
+  border: 0.1rem solid #023047;
+}
+
+.genre-img i:hover {
+  background-color: #023047;
+  cursor: pointer;
+  color: white;
+  /* border: 0.1rem solid white; */
+}
+.img-desc {
+  text-align: center;
+  font-size: 1rem;
+}

@@ -1,8 +1,17 @@
 import React from "react";
 import "../../Style/explore.css";
-const Explore = () => {
+import { data } from "../../Data/HomeStick";
+const Explore = (props) => {
+  // let p = Number(props.num);
+  console.log(props.num);
+  const image = data[props.num].url;
   return (
-    <div className="explore-top">
+    <div
+      className="explore-top"
+      style={{
+        backgroundImage: `url(${image})`,
+      }}
+    >
       <div
         className="explore-head"
         style={{
@@ -17,7 +26,7 @@ const Explore = () => {
           // left: "10%",
         }}
       >
-        Experience The Timeless Allure Of Kerala's sun-kissed Beaches
+        {data[props.num].title}
         <br />
       </div>
     </div>

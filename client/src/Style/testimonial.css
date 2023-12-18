@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+.test-top {
+  height: 100vh;
+}
+
+.test-top {
+  /* background-image: url("https://images.unsplash.com/photo-1587135991058-8816b028691f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */
+  height: 50vh;
+  background-color: #023047;
+  position: relative;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0vh -80vh;
+}
+.test-bottom {
+  height: 50vh;
+  background-color: white;
+}
+
+.test-head {
+  position: relative;
+  top: 15vh;
+  text-align: center;
+  font-size: 6rem;
+  color: white;
+}
+
+.test-cust {
+  position: relative;
+  top: -10vh;
+  height: max-content;
+  margin-inline: 4rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.test-cust-list {
+  margin-inline-start: 1rem;
+  height: 22rem;
+  flex: 1;
+  background-color: white;
+  border-radius: 1rem;
+  border: 1px solid white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.list-img {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list-img img {
+  width: 6rem;
+  border-radius: 50% 50%;
+}
+.list-name {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  color: grey;
+}
+.list-review {
+  flex: 4;
+  /* font-family: Mon; */
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  /* align-items: center; */
+  color: black;
+  font-size: 1.1rem;
+  padding: 0.5rem;
+  background-color: #f8fbfc;
+  border-radius: 1rem;
+  font-style: italic;
+  /* align-items: center; */
+}
+.quotation img {
+  position: relative;
+  width: 4rem;
+  top: 1px;
+}

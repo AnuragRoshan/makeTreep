@@ -44,20 +44,7 @@
 .stories-content-inner-right-story1 {
   background-color: #f0f7fc;
   margin: 0.5rem;
-  border-radius: 1rem;
-  flex: 1;
-  display: flex;
-}
-.stories-content-inner-right-story2 {
-  background-color: #f0f7fc;
-  margin: 0.5rem;
-  border-radius: 1rem;
-  flex: 1;
-  display: flex;
-}
-.stories-content-inner-right-story3 {
-  background-color: #f0f7fc;
-  margin: 0.5rem;
+  cursor: pointer;
   border-radius: 1rem;
   flex: 1;
   display: flex;
