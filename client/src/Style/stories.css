@@ -1,0 +1,105 @@
+.stories-top {
+  padding: 4rem;
+}
+
+.stories-inner-top {
+}
+
+.stories-head {
+  width: max-content;
+  margin-inline-end: auto;
+  text-align: left;
+  margin-block: 2rem;
+  font-size: 3rem;
+  color: #023047;
+}
+
+.stories-content-inner {
+  display: flex;
+}
+
+.stories-content-inner-left {
+  height: max-content;
+  flex: 4;
+}
+.head-image {
+  width: 90%;
+  margin: auto;
+  max-height: 40rem;
+  object-fit: cover;
+  display: flex;
+  border-radius: 1rem;
+  flex-wrap: wrap;
+  overflow: hidden; /* Ensure the border-radius clips the vignette */
+}
+
+.stories-content-inner-right {
+  flex: 4;
+  margin-inline: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.stories-content-inner-right-story1 {
+  background-color: #f0f7fc;
+  margin: 0.5rem;
+  border-radius: 1rem;
+  flex: 1;
+  display: flex;
+}
+.stories-content-inner-right-story2 {
+  background-color: #f0f7fc;
+  margin: 0.5rem;
+  border-radius: 1rem;
+  flex: 1;
+  display: flex;
+}
+.stories-content-inner-right-story3 {
+  background-color: #f0f7fc;
+  margin: 0.5rem;
+  border-radius: 1rem;
+  flex: 1;
+  display: flex;
+}
+
+.stories-content-inner-right-story1 :hover {
+  cursor: pointer;
+}
+
+.inner-right-story1-img {
+  flex: 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10px;
+}
+.inner-right-story1-img img {
+  width: 80%;
+  height: 60%;
+  border-radius: 0.5rem;
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 1.9));
+    pointer-events: none;
+  }
+}
+.inner-right-story1-detail {
+  flex: 9;
+  display: flex;
+  flex-direction: column;
+  margin-block: 1rem;
+}
+
+.inner-right-story1-bkmrk {
+  /* flex: 1; */
+  width: 10%;
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1.6rem;
+}

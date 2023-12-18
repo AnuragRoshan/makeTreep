@@ -1,0 +1,40 @@
+.brand-top {
+  /* border-top: 1px solid rgba(0, 0, 0, 0.176); */
+  background-color: #f8fbfc; /* some light background */
+  padding-block: 2rem;
+}
+
+.brand {
+  margin-inline: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.brand-img {
+  display: flex;
+  height: max-content;
+  margin-block-end: 4rem;
+  flex: 1;
+  justify-content: center;
+}
+
+.brand-img img {
+  width: max-content;
+  height: 6rem;
+  margin: 1rem;
+  filter: grayscale(100%);
+}
+
+.brand-img img:hover {
+  filter: grayscale(0);
+}
+
+.brand-head {
+  width: max-content;
+  margin: auto;
+  text-align: center;
+  margin-block: 2rem;
+  font-size: 3rem;
+  color: #023047;
+}
