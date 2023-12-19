@@ -6,7 +6,7 @@ import Stories from "../Components/Home/Stories";
 import Genre from "../Components/Home/Genre";
 import Testimonial from "../Components/Home/Testimonial";
 import Trending from "../Components/Home/Trending";
-import Footer from "../Components/Sidebar/Footer";
+import Package from "../Components/Home/Package";
 const Home = () => {
   return (
     <div>
@@ -56,6 +56,9 @@ const Home = () => {
         >
           <Explore num={1} />
         </section>
+        {/* <section style={{ height: "max-content" }}>
+          <Package />
+        </section> */}
         <section style={{ height: "100vh" }}>
           <Testimonial />
         </section>

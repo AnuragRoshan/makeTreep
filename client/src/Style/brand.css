@@ -1,7 +1,19 @@
 .brand-top {
-  /* border-top: 1px solid rgba(0, 0, 0, 0.176); */
-  background-color: #f8fbfc; /* some light background */
+  /* Your existing styles */
+  position: relative;
   padding-block: 2rem;
+  background-image: url("https://img.freepik.com/free-vector/doodle-travel-background_23-2148044879.jpg?w=740&t=st=1702984823~exp=1702985423~hmac=b6682f8012b7deaaf3b9688f64dbd3dc38d72484828875d09983daec102d9512");
+}
+
+.brand-top::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  background-color: rgba(255, 255, 255, 0.774);
 }
 
 .brand {
@@ -32,6 +44,7 @@
 
 .brand-head {
   width: max-content;
+  position: relative;
   margin: auto;
   text-align: center;
   margin-block: 2rem;
@@ -39,8 +52,20 @@
   color: #023047;
 }
 .genre-top {
-  background-color: #f8fbfc; /* some light background */
+  background-image: url("https://img.freepik.com/free-vector/doodle-travel-background_23-2148044879.jpg?w=740&t=st=1702984823~exp=1702985423~hmac=b6682f8012b7deaaf3b9688f64dbd3dc38d72484828875d09983daec102d9512");
+  /* background-color: #f8fbfc; */
   padding-block: 2rem;
+  position: relative;
+}
+.genre-top::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  background-color: rgba(255, 255, 255, 0.774);
 }
 
 .genre {
@@ -48,11 +73,13 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  position: relative;
 }
 
 .genre-head {
   width: max-content;
   font-size: 1.9rem;
+  position: relative;
   color: #023047;
   margin-inline-start: 4rem;
 }
