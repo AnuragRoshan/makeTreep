@@ -14,6 +14,7 @@
 }
 
 .nav {
+  z-index: 1000;
   position: fixed;
   display: flex;
   width: 100%;
@@ -57,4 +58,25 @@
 .nav-icon:hover {
   color: white;
   cursor: pointer;
+}
+
+.foot-top {
+  height: 40vh;
+  position: relative;
+  background-color: white;
+  background-image: url("https://img.freepik.com/free-vector/doodle-travel-background_23-2148044879.jpg?w=740&t=st=1702984823~exp=1702985423~hmac=b6682f8012b7deaaf3b9688f64dbd3dc38d72484828875d09983daec102d9512");
+  position: relative;
+  object-fit: contain;
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: 0vh 80vh;
+}
+.foot-top::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #023047eb;
 }

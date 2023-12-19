@@ -5,10 +5,14 @@ import Explore from "../Components/Home/Explore";
 import Stories from "../Components/Home/Stories";
 import Genre from "../Components/Home/Genre";
 import Testimonial from "../Components/Home/Testimonial";
+import Trending from "../Components/Home/Trending";
+import Footer from "../Components/Sidebar/Footer";
 const Home = () => {
   return (
     <div>
-      <Banner />
+      <section>
+        <Banner />
+      </section>
       <div className="otherContents" style={{ position: "relative" }}>
         <section>
           <Intro />
@@ -38,9 +42,21 @@ const Home = () => {
           <Explore num={2} />
         </section>
         <section style={{ height: "max-content" }}>
-          <Brands />
+          <Trending />
         </section>
         <section style={{ height: "max-content" }}>
+          <Brands />
+        </section>
+        <section
+          style={{
+            position: "sticky",
+            top: "0",
+            zIndex: "-1",
+          }}
+        >
+          <Explore num={1} />
+        </section>
+        <section style={{ height: "100vh" }}>
           <Testimonial />
         </section>
       </div>

@@ -14,9 +14,9 @@ const Testimonial = () => {
             </div>
             <div className="list-name">Anurag Roshan</div>
             <div className="list-review">
-              Indie Trek provided an immersive journey into unexplored realms.
+              "Indie Trek provided an immersive journey into unexplored realms.
               Seamless navigation, captivating stories, and breathtaking
-              visuals. An unforgettable adventure awaits!
+              visuals. An unforgettable adventure awaits!"
             </div>
           </div>
           <div className="test-cust-list">
