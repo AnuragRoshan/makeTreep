@@ -25,9 +25,9 @@ const Testimonial = () => {
             </div>
             <div className="list-name"> Lana James</div>
             <div className="list-review">
-              Embarking on an Indie Trek was a transformative experience. From
+              "Embarking on an Indie Trek was a transformative experience. From
               hidden gems to thrilling escapades, the website curated an
-              extraordinary journey.
+              extraordinary journey."
             </div>
           </div>
           <div className="test-cust-list">
@@ -36,9 +36,9 @@ const Testimonial = () => {
             </div>
             <div className="list-name">Hemant Singh</div>
             <div className="list-review">
-              Indie Trek's unique itineraries brought my travel dreams to life.
+              "Indie Trek's unique itineraries brought my travel dreams to life.
               Seamless planning, breathtaking locations, and unforgettable
-              memories. A must-visit for wanderlust enthusiasts!
+              memories. A must-visit for wanderlust enthusiasts!"
             </div>
           </div>
           <div className="test-cust-list">
@@ -47,9 +47,9 @@ const Testimonial = () => {
             </div>
             <div className="list-name">Sushant Nair</div>
             <div className="list-review">
-              A trailblazing adventure with Indie Trek. Impeccable service,
+              "A trailblazing adventure with Indie Trek. Impeccable service,
               diverse destinations, and an authentic travel experience. A
-              delightful platform for those seeking offbeat journeys. Kudos
+              delightful platform for those seeking offbeat journeys. Kudos"
             </div>
           </div>
         </div>

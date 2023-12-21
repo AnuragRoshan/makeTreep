@@ -1,13 +1,25 @@
 .stories-top {
   padding: 4rem;
+  background-image: url("https://as2.ftcdn.net/v2/jpg/06/58/30/83/1000_F_658308313_c2KGXHyUV0nxpjduS32yPHd3sgGOemFB.jpg");
+  position: relative;
+}
+
+.stories-top::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  background-color: rgba(255, 255, 255, 0.902);
 }
 
 .stories-inner-top {
+  position: relative;
 }
 
 .stories-head {
-  width: max-content;
-  margin-inline-end: auto;
   text-align: left;
   margin-block: 2rem;
   font-size: 3rem;

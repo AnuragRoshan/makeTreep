@@ -306,9 +306,23 @@ section {
   background-repeat: no-repeat;
   background-size: cover; 
   background-position: center; */
+  background-image: url("https://as2.ftcdn.net/v2/jpg/06/58/30/83/1000_F_658308313_c2KGXHyUV0nxpjduS32yPHd3sgGOemFB.jpg");
+  position: relative;
+}
+
+.intro-top::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  /* z-index: 0; */
+  background-color: rgba(255, 255, 255, 0.902);
 }
 
 .intro-inner-top {
+  position: relative;
   width: 100%;
   height: 80%;
   display: flex;

@@ -13,7 +13,7 @@
   bottom: 0;
   left: 0;
   z-index: 0;
-  background-color: rgba(255, 255, 255, 0.774);
+  background-color: rgba(255, 255, 255, 0.865);
 }
 
 .brand {
@@ -77,7 +77,6 @@
 }
 
 .genre-head {
-  width: max-content;
   font-size: 1.9rem;
   position: relative;
   color: #023047;

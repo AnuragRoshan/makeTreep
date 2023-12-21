@@ -44,8 +44,17 @@ const Home = () => {
         <section style={{ height: "max-content" }}>
           <Trending />
         </section>
+        <section
+          style={{
+            position: "sticky",
+            top: "0",
+            zIndex: "-1",
+          }}
+        >
+          <Explore num={3} />
+        </section>
         <section style={{ height: "max-content" }}>
-          <Brands />
+          <Package />
         </section>
         <section
           style={{
@@ -56,9 +65,9 @@ const Home = () => {
         >
           <Explore num={1} />
         </section>
-        {/* <section style={{ height: "max-content" }}>
-          <Package />
-        </section> */}
+        <section style={{ height: "max-content" }}>
+          <Brands />
+        </section>
         <section style={{ height: "100vh" }}>
           <Testimonial />
         </section>

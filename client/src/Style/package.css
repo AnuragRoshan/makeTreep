@@ -4,4 +4,64 @@
 .package-inner-top {
   padding-inline: 4rem;
   padding-block: 2rem;
+  background-image: url("https://as2.ftcdn.net/v2/jpg/06/58/30/83/1000_F_658308313_c2KGXHyUV0nxpjduS32yPHd3sgGOemFB.jpg");
+  position: relative;
+  /* height: 30rem; */
+}
+.package-inner-top::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  background-color: rgba(255, 255, 255, 0.902);
+}
+.package-head {
+  position: relative;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #023047;
+}
+.package-lists {
+  position: relative;
+  margin-block-start: 2rem;
+}
+
+.image-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-block-start: 1rem;
+  /* height: 100%; */
+}
+
+.image-row picture {
+  margin-right: 10px; /* Optional: Add spacing between images */
+  flex: 1;
+  /* max-height: 80%; */
+  position: relative;
+}
+.image-row picture :hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 10px rgba(33, 33, 33, 0.4);
+}
+
+.image-row img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+
+.package-list-title {
+  text-align: left;
+  font-size: 2.2rem;
+  color: black;
+}
+.package-list-desc {
+  margin-block-start: 1rem;
+  text-align: left;
+  font-size: 1.5rem;
+  color: rgb(81, 80, 80);
 }
