@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import "../../Style/sidebar.css";
+import "../../Style/Home/sidebar.css";
 
 const Sidebar = () => {
   //   let scrollPosition = 110;

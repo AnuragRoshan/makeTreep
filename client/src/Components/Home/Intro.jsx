@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "../../Style/Home.css";
+import "../../Style/Home/Home.css";
 
 const Intro = () => {
   const [scrollPosition, setScrollPosition] = useState(0);

@@ -1,8 +1,8 @@
 import React from "react";
-import "../../Style/sidebar.css";
+import "../../Style/Home/sidebar.css";
 
 const Footer = () => {
-  return <div className="foot-top">ok</div>;
+  return <div className="foot-top"></div>;
 };
 
 export default Footer;

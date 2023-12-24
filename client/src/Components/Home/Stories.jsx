@@ -1,5 +1,5 @@
 import React from "react";
-import "../../Style/stories.css";
+import "../../Style/Home/stories.css";
 
 const Stories = () => {
   const storiesData = [
@@ -59,10 +59,7 @@ const Stories = () => {
                     className="inner-right-story1-detail"
                     style={{
                       display: "flex",
-                      justifyContent: "center", // center horizontally
-                      alignItems: "flex-start", // center vertically
-                      alignSelf: "flex-start",
-                      lineHeight: "2.5rem", // align at the start vertically
+                      flexDirection: "column",
                     }}
                   >
                     <div

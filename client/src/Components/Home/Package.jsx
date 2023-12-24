@@ -1,5 +1,5 @@
 import React from "react";
-import "../../Style/package.css";
+import "../../Style/Home/package.css";
 import tourData from "../../Data/PackageList";
 const Package = () => {
   return (
@@ -17,9 +17,11 @@ const Package = () => {
               </div>
               <div className="image-row">
                 {packageData.images.map((image, i) => (
-                  <picture key={i}>
-                    <img src={image.url} alt={image.alt} />
-                  </picture>
+                  <>
+                    <picture key={i}>
+                      <img src={image.url} alt={image.alt} />
+                    </picture>
+                  </>
                 ))}
               </div>
             </div>

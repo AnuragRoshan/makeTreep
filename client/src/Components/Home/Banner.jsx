@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "../../Style/Home.css";
+import "../../Style/Home/Home.css";
 
 const Banner = () => {
   const [addAnimation, setAddAnimation] = useState(false);

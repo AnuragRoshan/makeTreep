@@ -1,5 +1,5 @@
 import React from "react";
-import "../../Style/explore.css";
+import "../../Style/Home/explore.css";
 import { data } from "../../Data/HomeStick";
 const Explore = (props) => {
   // let p = Number(props.num);

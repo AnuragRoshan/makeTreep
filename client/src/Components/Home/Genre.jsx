@@ -1,5 +1,5 @@
 import React from "react";
-import "../../Style/brand.css";
+import "../../Style/Home/brand.css";
 
 const Genre = () => {
   return (

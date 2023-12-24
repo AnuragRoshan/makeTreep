@@ -1,5 +1,5 @@
 import React from "react";
-import "../../Style/trending.css";
+import "../../Style/Home/trending.css";
 import { getCurrentMonth } from "../../Data/Getfunctions.js";
 
 const Trending = () => {

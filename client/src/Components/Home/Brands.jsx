@@ -1,5 +1,5 @@
 import React from "react";
-import "../../Style/brand.css";
+import "../../Style/Home/brand.css";
 const Brands = () => {
   const data = [
     "https://1000logos.net/wp-content/uploads/2017/03/McDonalds-Logo-2003-768x432.png",

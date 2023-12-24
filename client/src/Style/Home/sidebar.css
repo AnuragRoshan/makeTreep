@@ -80,3 +80,9 @@
   left: 0;
   background-color: #023047eb;
 }
+
+@media screen and (max-width: 1333px) {
+  .foot-top {
+    margin-top: 0rem;
+  }
+}

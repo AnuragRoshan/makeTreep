@@ -1,0 +1,124 @@
+.story-banner-top {
+  background-image: url("https://images.unsplash.com/photo-1491582990992-68ec88e070a3?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.772));
+    pointer-events: none;
+  }
+}
+
+.story-banner-head {
+  font-size: 5.8rem;
+  color: white;
+  font-weight: 800;
+  position: relative;
+}
+.story-banner-desc {
+  font-size: 1rem;
+  color: white;
+  position: relative;
+}
+
+.story-genre-top {
+  z-index: 100;
+  height: 100vh;
+  position: relative;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.story-genre-inner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* width: 100%; */
+  padding-inline: 4rem;
+  padding-block: 2rem;
+  height: 100%;
+}
+
+.story-genre-inner > * {
+  flex: 1;
+  margin: 1rem;
+  min-width: 30%;
+}
+.story-genre-inner > * img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border: none;
+  transition: filter 0.3s ease-in-out;
+}
+
+.story-genre-inner > * {
+  flex: 1;
+  position: relative;
+  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 1.9));
+}
+.story-genre-inner > *::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.story-genre-inner > *:hover img {
+  filter: brightness(70%);
+}
+
+.story-genre-inner > *:hover::before {
+  opacity: 1;
+}
+
+.story-genre-item {
+  flex: 1;
+  position: relative;
+  margin: 1rem;
+  min-width: 30%;
+}
+
+.story-genre-item img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border: none;
+  transition: filter 0.3s ease-in-out;
+}
+
+.story-genre-item .image-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: max-content;
+  transform: translate(-50%, -50%);
+  color: rgb(224, 218, 218);
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  z-index: 2;
+}

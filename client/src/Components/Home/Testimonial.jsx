@@ -1,5 +1,5 @@
 import React from "react";
-import "../../Style/testimonial.css";
+import "../../Style/Home/testimonial.css";
 const Testimonial = () => {
   return (
     <div className="test-top">

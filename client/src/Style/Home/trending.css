@@ -28,7 +28,7 @@
 }
 
 .trending-img-top picture {
-  margin-right: 10px; /* Optional: Add spacing between images */
+  margin-right: 1rem;
   flex: 1;
   position: relative;
 }

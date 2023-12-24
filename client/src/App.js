@@ -3,6 +3,7 @@ import { Routes, Route, BrowserRouter as Router, Navigate } from "react-router-d
 import Home from './Pages/Home';
 import Sidebar from './Components/Sidebar/Sidebar';
 import Footer from './Components/Sidebar/Footer';
+import Stories from './Pages/Stories';
 
 function App() {
 
@@ -11,8 +12,8 @@ function App() {
       <Router>
         <Sidebar />
         <Routes>
-          <Route path='/' element={<Home />} />
-          {/* <div>lorem*89</div> */}
+          <Route exact path='/' element={<Home />} />
+          <Route exact path='/stories' element={<Stories />} />
         </Routes>
         <Footer />
       </Router>
