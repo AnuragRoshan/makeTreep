@@ -4,7 +4,7 @@
   text-align: left;
   font-size: 2rem;
   color: #023047;
-  background-image: url("https://as2.ftcdn.net/v2/jpg/06/58/30/83/1000_F_658308313_c2KGXHyUV0nxpjduS32yPHd3sgGOemFB.jpg");
+  /* background-image: url("https://as2.ftcdn.net/v2/jpg/06/58/30/83/1000_F_658308313_c2KGXHyUV0nxpjduS32yPHd3sgGOemFB.jpg"); */
   position: relative;
 }
 .trending-inner-top::before {

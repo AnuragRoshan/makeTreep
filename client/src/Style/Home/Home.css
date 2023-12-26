@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&family=Nunito+Sans:opsz@6..12&family=Overpass:wght@500&display=swap");
 /* background-color: black; */
 @import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noticia+Text&display=swap");
 *::selection {
   background: #168ba0dc;
   color: white;
@@ -306,20 +307,20 @@ section {
   background-repeat: no-repeat;
   background-size: cover; 
   background-position: center; */
-  background-image: url("https://as2.ftcdn.net/v2/jpg/06/58/30/83/1000_F_658308313_c2KGXHyUV0nxpjduS32yPHd3sgGOemFB.jpg");
+  /* background-image: url("https://as2.ftcdn.net/v2/jpg/06/58/30/83/1000_F_658308313_c2KGXHyUV0nxpjduS32yPHd3sgGOemFB.jpg"); */
   position: relative;
+  background-color: white;
 }
 
-.intro-top::before {
+/* .intro-top::before {
   content: "";
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  /* z-index: 0; */
   background-color: rgba(255, 255, 255, 0.902);
-}
+} */
 
 .intro-inner-top {
   position: relative;

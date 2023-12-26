@@ -8,7 +8,7 @@
   /* justify-content: space-between; */
   display: flex;
   flex-direction: column;
-  background-color: #15303e;
+  background-color: #08141a;
   border-radius: 0 1rem 1rem 0;
   transition: 500ms;
 }
@@ -20,12 +20,8 @@
   width: 100%;
   height: 3rem;
   /* background-color: inherit; */
-  background-color: rgba(255, 255, 255, 0.358);
+  background-color: rgba(255, 255, 255, 0.658);
   transition: 1s;
-}
-
-.nav-hidden {
-  /* display: none; */
 }
 
 .nav-top {
@@ -53,7 +49,7 @@
   align-items: center;
   justify-content: center;
   font-size: 1.5rem;
-  color: rgb(207, 206, 206);
+  color: rgb(140, 139, 139);
 }
 .nav-icon:hover {
   color: white;
@@ -78,11 +74,16 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: #023047eb;
+  background-color: #000507eb;
 }
 
 @media screen and (max-width: 1333px) {
   .foot-top {
     margin-top: 0rem;
   }
+}
+
+a {
+  text-decoration: none;
+  color: inherit; /* or specify your desired color */
 }

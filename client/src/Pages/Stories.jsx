@@ -8,17 +8,20 @@ import TrendingAuthor from "../Components/Stories/TrendingAuthor";
 const Stories = () => {
   return (
     <div>
-      <section>
+      <section style={{ height: "70vh" }}>
         <Storybanner />
       </section>
       <section style={{ height: "max-content" }}>
         <StoryGenre />
       </section>
       <section style={{ height: "max-content" }}>
-        <TrendingStroies />
+        <TrendingStroies trend={"Trending"} />
       </section>
       <section style={{ height: "max-content" }}>
         <TrendingAuthor />
+      </section>
+      <section style={{ height: "max-content" }}>
+        <TrendingStroies trend={"Latest"} />
       </section>
     </div>
   );
