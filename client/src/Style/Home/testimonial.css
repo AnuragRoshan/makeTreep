@@ -11,6 +11,7 @@
   object-fit: cover;
   background-repeat: repeat;
   background-size: cover;
+  /* display: flex; */
   background-position: 0vh -80vh;
   border-radius: 0 0 5rem 5rem;
 }
@@ -29,6 +30,7 @@
 .test-bottom {
   height: 50vh;
   background-color: white;
+  display: flex;
 }
 
 .test-head {
@@ -49,7 +51,7 @@
   flex-direction: row;
 }
 
-@media screen and (max-width: 1333px) {
+@media screen and (max-width: 1000px) {
   .test-cust {
     flex-direction: column;
   }
