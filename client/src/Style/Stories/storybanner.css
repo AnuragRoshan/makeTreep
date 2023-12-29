@@ -316,3 +316,21 @@
   font-weight: 600;
   color: rgb(0, 0, 0);
 }
+
+/* int calculateGCD(int a, int b) {
+    while (b != 0) {
+        int temp = b;
+        b = a % b;
+        a = temp;
+    }
+    return a;
+}
+
+// Function to calculate the LCM using the GCD
+int calculateLCM(int a, int b) {
+    // Avoid division by zero
+    if (a == 0 || b == 0) {
+        return 0;
+    }
+    return std::abs(a * b) / calculateGCD(a, b);
+} */

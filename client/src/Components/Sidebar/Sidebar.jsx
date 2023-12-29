@@ -54,7 +54,7 @@ const Sidebar = () => {
                 <i class="fa-solid fa-book"></i>
               ) : (
                 <>
-                  <span className="nav-list">Articles</span>
+                  <span className="nav-list">Stories</span>
                 </>
               )}
             </Link>
@@ -62,10 +62,10 @@ const Sidebar = () => {
           <div className="nav-icon">
             {/* <i class="fa-solid fa-phone"></i> */}
             {scrollPosition > 10 ? (
-              <i class="fa-solid fa-magnifying-glass"></i>
+              <i class="fa-solid fa-pen-to-square"></i>
             ) : (
               <>
-                <span className="nav-list">Search</span>
+                <span className="nav-list">Draft</span>
               </>
             )}
           </div>

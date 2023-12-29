@@ -5,6 +5,7 @@ import Sidebar from './Components/Sidebar/Sidebar';
 import Footer from './Components/Sidebar/Footer';
 import Stories from './Pages/Stories';
 import Genre from './Pages/Genre';
+import Article from './Pages/Article';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
           <Route exact path='/' element={<Home />} />
           <Route exact path='/stories' element={<Stories />} />
           <Route exact path='/stories/:id' element={<Genre />} />
+          <Route exact path='/article/:id' element={<Article />} />
         </Routes>
         <Footer />
       </Router>

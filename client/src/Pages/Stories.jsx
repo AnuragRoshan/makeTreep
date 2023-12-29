@@ -8,7 +8,7 @@ import TrendingAuthor from "../Components/Stories/TrendingAuthor";
 const Stories = () => {
   return (
     <div>
-      <section style={{ height: "70vh" }}>
+      <section style={{ height: "80vh" }}>
         <Storybanner />
       </section>
       <section style={{ height: "max-content" }}>

@@ -1,6 +1,7 @@
 import React from "react";
 import "../../Style/Genre/genre.css";
 import { data } from "../../Data/StoryGenre";
+import Searchbar from "../Sidebar/Searchbar";
 
 const Genrebanner = (props) => {
   const genreData = data[props.genre]; // Access data for the specific genre
@@ -13,6 +14,8 @@ const Genrebanner = (props) => {
         <div className="genre-banner-head">{genreData.title}</div>
         <div className="genre-banner-sub">{genreData.subtitle}</div>
       </div>
+
+      <Searchbar />
     </>
   );
 };
