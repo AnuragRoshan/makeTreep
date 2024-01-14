@@ -24,10 +24,12 @@ const TrendingAuthor = () => {
             <div className="author-img">
               <img src="https://xsgames.co/randomusers/avatar.php?g=male"></img>
             </div>
-            <div className="trending-story-list-detail">
+            <div className="trending-author-list-detail">
               <div>Name</div>
-              <div>Bio</div>
-              <div>SMlinks</div>
+              <div>
+                hfshf iauishfua fu sfuashuf saufusf sfhusa fhsaufs fsaiufhsuai
+                fhuas iofids hdf fhidsh fids hfid
+              </div>
               <div>400 followers</div>
               <div>follow button</div>
             </div>
@@ -36,10 +38,12 @@ const TrendingAuthor = () => {
             <div className="author-img">
               <img src="https://xsgames.co/randomusers/avatar.php?g=male"></img>
             </div>
-            <div className="trending-story-list-detail">
+            <div className="trending-author-list-detail">
               <div>Name</div>
-              <div>Bio</div>
-              <div>SMlinks</div>
+              <div>
+                hfshf iauishfua fu sfuashuf saufusf sfhusa fhsaufs fsaiufhsuai
+                fhuas iofids hdf fhidsh fids hfid
+              </div>
               <div>400 followers</div>
               <div>follow button</div>
             </div>

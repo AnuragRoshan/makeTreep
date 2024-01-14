@@ -1,0 +1,10 @@
+.comment-top {
+  top: 50%;
+  left: 50%;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+  border-radius: 0.6rem;
+  transition: opacity 800ms ease-in-out; /* Transition opacity over 400ms with ease-in-out timing function */
+}

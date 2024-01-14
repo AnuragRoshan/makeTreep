@@ -12,10 +12,18 @@ const Genre = () => {
       </section>
 
       <section style={{ height: "max-content" }}>
-        <TrendingStroies trend={"Latest"} genre={data[id].title} limit={3} />
+        <TrendingStroies
+          trend={"Latest Stories"}
+          genre={data[id].title}
+          limit={3}
+        />
       </section>
       <section style={{ height: "max-content" }}>
-        <TrendingStroies trend={"Featured"} genre={data[id].title} limit={5} />
+        <TrendingStroies
+          trend={"Featured Stories"}
+          genre={data[id].title}
+          limit={5}
+        />
       </section>
       <section style={{ height: "max-content" }}>
         <TrendingStroies trend={"All"} limit={8} />

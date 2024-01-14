@@ -33,7 +33,7 @@
 }
 
 .article-inner-top {
-  width: 60%;
+  width: 65%;
   margin: auto;
 }
 
@@ -72,11 +72,47 @@
   color: grey;
 }
 
+/* Add this to your article.css file */
 .article-content {
-  font-family: Noticia Text;
+  font-family: "Noticia Text", serif;
   font-size: 1.4rem;
   line-height: 2.5rem;
   text-align: center;
-  padding-bottom: 2rem;
   color: #242424;
+
+  & > p::first-letter {
+    font-size: 3.5em;
+    font-weight: bold;
+    float: left;
+    margin-right: 5px;
+  }
+
+  & > p {
+    margin-bottom: 15px;
+  }
+}
+
+.article-ico {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 5rem;
+}
+
+.article-bookmark {
+  font-size: 1.8rem;
+  color: #023047;
+  margin-left: 1rem;
+}
+.article-share {
+  font-size: 1.8rem;
+  color: #023047;
+  margin-left: 1rem;
+}
+.article-comment {
+  font-size: 1.8rem;
+  color: #023047;
+  margin-left: 1rem;
+  cursor: pointer;
 }

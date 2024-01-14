@@ -38,14 +38,16 @@ const Sidebar = () => {
             </Link>
           </div>
           <div className="nav-icon">
-            {/* <i class="fa-solid fa-phone"></i> */}
-            {scrollPosition > 10 ? (
-              <i class="fa-solid fa-phone"></i>
-            ) : (
-              <>
-                <span className="nav-list">Contact</span>
-              </>
-            )}
+            <Link to={`/places`}>
+              {/* <i class="fa-solid fa-phone"></i> */}
+              {scrollPosition > 10 ? (
+                <i class="fa-solid fa-message"></i>
+              ) : (
+                <>
+                  <span className="nav-list">Places</span>
+                </>
+              )}
+            </Link>
           </div>
           <div className="nav-icon">
             <Link to={`/stories`}>
@@ -60,14 +62,39 @@ const Sidebar = () => {
             </Link>
           </div>
           <div className="nav-icon">
-            {/* <i class="fa-solid fa-phone"></i> */}
-            {scrollPosition > 10 ? (
-              <i class="fa-solid fa-pen-to-square"></i>
-            ) : (
-              <>
-                <span className="nav-list">Draft</span>
-              </>
-            )}
+            <Link to={`/stories`}>
+              {scrollPosition > 10 ? (
+                <i class="fa-solid fa-pen-to-square"></i>
+              ) : (
+                <>
+                  <span className="nav-list">Draft</span>
+                </>
+              )}
+            </Link>
+          </div>
+          <div className="nav-icon">
+            <Link to={`/places`}>
+              {/* <i class="fa-solid fa-phone"></i> */}
+              {scrollPosition > 10 ? (
+                <i class="fa-solid fa-location-dot"></i>
+              ) : (
+                <>
+                  <span className="nav-list">Places</span>
+                </>
+              )}
+            </Link>
+          </div>
+          <div className="nav-icon">
+            <Link to={`/places`}>
+              {/* <i class="fa-solid fa-phone"></i> */}
+              {scrollPosition > 10 ? (
+                <i class="fa-solid fa-user"></i>
+              ) : (
+                <>
+                  <span className="nav-list">Profile</span>
+                </>
+              )}
+            </Link>
           </div>
         </div>
       </div>

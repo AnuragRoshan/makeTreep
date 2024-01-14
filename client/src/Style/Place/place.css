@@ -1,0 +1,88 @@
+.place-list-top {
+  background-color: white;
+  position: relative;
+  padding: 2rem 4rem;
+}
+.place-list-elements {
+  position: relative;
+  height: max-content;
+}
+
+.place-card-top {
+  height: max-content;
+  margin-block: 6rem;
+  display: flex;
+  padding: 1rem;
+  border-top: 1px solid #e6e6e6;
+}
+.place-card-img {
+  flex: 2;
+}
+.place-card-detail {
+  flex: 3;
+}
+
+.place-card-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+.place-card-img :hover {
+  box-shadow: 0 0 1rem 0.5rem rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.place-card-detail {
+  padding-inline: 2rem;
+}
+
+.place-card-head {
+  font-size: 2.8rem;
+  color: #242424;
+  cursor: pointer;
+}
+
+.place-card-location {
+  font-size: 1.4rem;
+  color: #242424;
+}
+
+.place-card-desc {
+  font-size: 1rem;
+  color: #353535;
+  font-weight: 600;
+  margin-block: 1rem;
+  font-family: "Noticia Text", serif;
+}
+
+.place-card-genre {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.place-card-genre > * {
+  margin-inline-end: 1rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  background-color: #e6e6e6;
+
+  margin-block: 0.4rem;
+}
+
+.place-card-temp {
+  margin-block: 1rem;
+  font-size: 0.9rem;
+  color: #353535;
+}
+
+.place-card-rating {
+  padding: 0.4rem;
+  width: max-content;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  color: white;
+  background-color: #023047;
+}

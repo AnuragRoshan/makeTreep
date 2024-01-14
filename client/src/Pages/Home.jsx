@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Banner from "../Components/Home/Banner";
 import Brands from "../Components/Home/Brands";
 import Intro from "../Components/Home/Intro";
@@ -8,6 +9,12 @@ import Testimonial from "../Components/Home/Testimonial";
 import Trending from "../Components/Home/Trending";
 import Package from "../Components/Home/Package";
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    return () => {
+      window.scrollTo(0, 0);
+    };
+  }, []);
   return (
     <div>
       <section>

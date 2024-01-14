@@ -2,12 +2,6 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const StoryGenre = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-    return () => {
-      window.scrollTo(0, 0);
-    };
-  }, []);
   return (
     <div className="story-genre-top">
       <div className="story-genre-inner">
