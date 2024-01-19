@@ -2,37 +2,45 @@ import React, { useState, useEffect } from "react";
 import "../../Style/Home/Home.css";
 
 const Banner = () => {
-  const [addAnimation, setAddAnimation] = useState(false);
+  const [videoLoaded, setVideoLoaded] = useState(false);
   const [scrollPosition, setScrollPosition] = useState(0);
 
   useEffect(() => {
     const handleScroll = () => {
       setScrollPosition(window.scrollY);
     };
+
     window.addEventListener("scroll", handleScroll);
+
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
-  useEffect(() => {
-    setAddAnimation(true);
-  }, []);
+  const handleVideoLoad = () => {
+    setVideoLoaded(true);
+  };
 
   return (
     <div>
+      {!videoLoaded && (
+        <div className="loading-spinner">
+          {/* Add your loading spinner component or text here */}
+          Loading...
+        </div>
+      )}
       <div
         className={`video-background ${
-          addAnimation ? "top-head-animation" : ""
+          videoLoaded ? "top-head-animation" : ""
         }`}
       >
-        <video autoPlay loop muted>
+        <video autoPlay loop muted onLoadedData={handleVideoLoad}>
           <source
             src="https://ik.imagekit.io/i3divn77k/AdventurePX/8316141a-086c-4a4c-890c-ac4e9c958cb6.mp4?updatedAt=1701897105562"
             type="video/mp4"
           />
         </video>
-        <div className={`top-head ${addAnimation ? "top-head-animation" : ""}`}>
+        <div className={`top-head ${videoLoaded ? "top-head-animation" : ""}`}>
           <img
             src="https://yestheory.com/wp-content/themes/jobs/assets/images/lightblue-lines-big-distressed.svg"
             alt=""
@@ -48,7 +56,7 @@ const Banner = () => {
           className="walking-image"
           src="https://media.tenor.com/KDu16gyyLDEAAAAi/emirates-airplane.gif"
           alt=""
-          srcset=""
+          srcSet=""
         />
       </div>
 
@@ -68,7 +76,7 @@ const Banner = () => {
           <input type="text" name="" id="" placeholder=' Search "Manali" ' />
         </div>
         <div style={{ textAlign: "center", borderRadius: "0" }}>
-          <i class="fa-solid fa-magnifying-glass"></i>
+          <i className="fa-solid fa-magnifying-glass"></i>
         </div>
       </div>
       <div className="otherContents"></div>

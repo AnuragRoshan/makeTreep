@@ -8,6 +8,7 @@ import Genre from './Pages/Genre';
 import Article from './Pages/Article';
 import Places from './Pages/Places';
 import Destination from './Pages/Destination';
+import Package from './Pages/Package';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
           <Route exact path='/article/:id' element={<Article />} />
           <Route exact path='/places' element={<Places />} />
           <Route exact path='/destination/:id' element={<Destination />} />
+          <Route exact path='/package/:id' element={<Package />} />
         </Routes>
         <Footer />
       </Router>

@@ -30,7 +30,22 @@ const PlaceCard = ({ place }) => {
             <sup>o</sup>C ,{place.humidity}% Humidity
           </b>
         </div>
-        <div className="place-card-rating">{place.rating}</div>
+        <div style={{ display: "flex" }}>
+          <div className="place-card-rating">{place.rating}</div>
+          <div
+            style={{
+              display: "flex",
+              textAlign: "center",
+              alignItems: "center",
+              marginLeft: "1rem",
+              // fontWeight: "bold",
+              color: "#242424",
+              fontSize: "1rem",
+            }}
+          >
+            Deals Starting from &nbsp; <b style={{ color: "green" }}> $150</b>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -1,0 +1,81 @@
+.package-card-top {
+  width: 18rem;
+  margin: 0.5rem;
+  height: max-content;
+  padding-bottom: 0.5rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0.5rem 0.1rem rgba(0, 0, 0, 0.1);
+  position: relative; /* Ensure relative positioning for absolute child */
+  cursor: pointer;
+}
+
+.package-card-image {
+  height: 13rem;
+  position: relative; /* Ensure relative positioning for absolute child */
+}
+
+.package-card-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  background-color: grey;
+  border-radius: 0.5rem 0.5rem 0 0;
+  position: relative;
+}
+
+.package-card-bookmark {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  font-size: 1.4rem;
+  color: white;
+  cursor: pointer;
+}
+
+.package-card-name {
+  font-size: 1.1rem;
+  color: #242424;
+  font-weight: 600;
+  margin: 0.3rem 0 0 0.3rem;
+  cursor: pointer;
+}
+
+.package-card-company {
+  font-size: 1rem;
+  color: #353535;
+  margin: 0.3rem 0 0 0.3rem;
+  cursor: pointer;
+}
+.package-card-price {
+  font-size: 1.5rem;
+  color: #023047;
+
+  font-weight: 600;
+  margin: 0.3rem 0 0 8rem;
+  cursor: pointer;
+}
+
+.package-card-duration {
+  font-size: 1rem;
+  color: #353535;
+  margin: 0.3rem 0 0 0.3rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.package-card-inclusion {
+  font-size: 1.2rem;
+  color: #353535;
+  margin: 0.3rem 0 0 0.3rem;
+  cursor: pointer;
+  /* width: 70%; */
+  display: flex;
+}
+
+.package-card-inclusion > * {
+  margin-inline-end: 1rem;
+  margin-block: 0.1rem;
+  /* flex: 1; */
+}

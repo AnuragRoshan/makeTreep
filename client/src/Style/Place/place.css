@@ -74,6 +74,8 @@
 
 .place-card-temp {
   margin-block: 1rem;
+  display: flex;
+  align-items: center;
   font-size: 0.9rem;
   color: #353535;
 }

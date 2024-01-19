@@ -136,7 +136,8 @@
 
 .trending-stories-inner-top {
   position: relative;
-  margin-inline: 4rem;
+  /* margin-inline: 4rem; */
+  border: 1px white solid;
   margin-block: 2rem;
 }
 
@@ -152,16 +153,21 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
+  height: max-content;
   justify-content: center;
   /* margin-block: 2rem; */
 }
 
 .trending-stories-item {
-  width: 30%;
-  height: max-content;
-  border-right: 1px solid grey;
-  border-bottom: 1px solid grey;
+  width: 21rem;
+  height: 34rem;
+  background-color: white;
+  /* border-right: 1px solid grey; */
+  /* border-bottom: 1px solid grey; */
+
+  /* box-shadow: 0 0 1px 1px rgba(50, 50, 50, 0.5); */
   padding-inline: 0.5rem;
+  justify-content: start;
   margin: 0.5rem;
 }
 
@@ -250,6 +256,7 @@
   height: max-content;
   /* background-image: url("https://img.freepik.com/free-vector/gray-line-drawings-organic-shapes-background_1409-3947.jpg?w=900&t=st=1702978888~exp=1702979488~hmac=ca1991dc0b02d19ceb35f955b6247b1e5fe8f796ce8f6c950e19b15461511c7f"); */
   /* background-image: url(""); */
+  /* box-shadow: 0 0 10px 1px rgba(50, 50, 50, 0.5); */
   position: relative;
   background-color: white;
 }

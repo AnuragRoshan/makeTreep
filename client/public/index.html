@@ -26,11 +26,35 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
   <title>React App</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .container {
+      width: 100vw;
+      /* Set your desired fixed width here */
+      margin: 0 0;
+      /* Center the container */
+      background-color: #f8f8f8;
+      /* Optional: Add background color */
+      /* padding: 20px; */
+      /* Optional: Add padding for content */
+    }
+
+    /* Add your additional styles as needed */
+  </style>
 </head>
 
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root"></div>
+  <div class="container">
+    <!-- Your website content goes here -->
+    <div id="root"></div>
+  </div>
   <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

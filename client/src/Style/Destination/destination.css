@@ -41,17 +41,19 @@
   padding-inline: 4rem;
   padding-block: 2rem;
 }
+.destinationdetail-inner-top {
+  width: 90%;
+  margin: auto;
+}
 
 .destinationdetail-desc {
   font-size: 1.1rem;
   color: #242424;
-  width: 70%;
+  width: 100%;
   margin: auto;
-  font-family: "Noticia Text", serif;
-}
-
-.destinationdetail-desc ::first-letter {
-  font-size: 4rem;
+  line-height: 1.8rem;
+  /* font-weight: 600; */
+  /* font-family: serif; */
 }
 
 .destinationpackage-top {
@@ -63,11 +65,34 @@
 }
 
 .destinationpackage-other {
-  flex: 2;
+  flex: 1;
   padding-inline-start: 4rem;
-  padding-inline-end: 2rem;
+  padding-inline-end: 1rem;
   border-right: 1px solid #e0e0e0;
 }
 .destinationpackage-packagelist-top {
-  flex: 5;
+  flex: 4;
+  display: flex;
+  flex-direction: row;
+}
+
+.destinationpackage-packagelist {
+  flex: 7;
+  background-color: #f2f2f2;
+  height: max-content;
+}
+
+.destinationpackage-stories {
+  flex: 3;
+}
+
+.destinationpackage-filter {
+  height: 10rem;
+  position: sticky;
+}
+
+.destinationpackage-package-cardlist {
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
 }

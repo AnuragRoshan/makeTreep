@@ -5,6 +5,7 @@ import DestinationBanner from "../Components/Destination/DestinationBanner";
 import { placeData } from "../Data/PlaceData";
 import DestinationDetail from "../Components/Destination/DestinationDetail";
 import DestinationPackage from "../Components/Destination/DestinationPackage";
+import TrendingStroies from "../Components/Stories/TrendingStroies";
 
 const Destination = () => {
   const { id } = useParams();
@@ -12,7 +13,7 @@ const Destination = () => {
 
   return (
     <>
-      <section style={{ height: "60vh" }}>
+      <section style={{ height: "55vh" }}>
         <DestinationBanner place={selectedPlace} />
       </section>
       <section style={{ height: "max-content" }}>
@@ -20,6 +21,9 @@ const Destination = () => {
       </section>
       <section style={{ height: "max-content" }}>
         <DestinationPackage place={selectedPlace} />
+      </section>
+      <section style={{ height: "max-content" }}>
+        <TrendingStroies trend={"Trending Stories"} limit={5} />
       </section>
     </>
   );
